@@ -3,6 +3,9 @@ package com.dewes;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletHandler;
 
+/**
+ * Created by Dewes on 15-nov-2017
+ */
 public class MainEndpoint {
 
     public static void main(String[] args) {

@@ -9,6 +9,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Enumeration;
 
+/**
+ * Created by Dewes on 15-nov-2017
+ */
 @SuppressWarnings("serial")
 public class ForwardServlet extends HttpServlet {
 
