@@ -15,7 +15,7 @@ import java.util.Enumeration;
 @SuppressWarnings("serial")
 public class ForwardServlet extends HttpServlet {
 
-    private static final String TARGET_BASE_URL = "http://127.0.0.1";
+    private static final String TARGET_BASE_URL = "http://dewes.pe.hu";
 
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {

@@ -29,9 +29,9 @@ public class MainEndpoint {
             filterHolder.setInitParameter(CrossOriginFilter.ALLOWED_HEADERS_PARAM, "*");
 
 
-            Server server = new Server(9000);
+            // Server server = new Server(9000);
             // Server server = new Server(Integer.valueOf(System.getProperty("PORT", "8080")));
-            // Server server = new Server(Integer.valueOf(System.getenv("PORT")));
+            Server server = new Server(Integer.valueOf(System.getenv("PORT")));
             server.setHandler(servletContextHandler);
 
             server.start();
