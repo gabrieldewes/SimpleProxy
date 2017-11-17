@@ -29,6 +29,13 @@
             <version>LATEST</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
